@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		BFA949E6216D217F005FAE4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA949E5216D217F005FAE4A /* AppDelegate.swift */; };
-		BFA949E8216D217F005FAE4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA949E7216D217F005FAE4A /* ViewController.swift */; };
+		BFA949E8216D217F005FAE4A /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA949E7216D217F005FAE4A /* ColorChangeViewController.swift */; };
 		BFA949EB216D217F005FAE4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA949E9216D217F005FAE4A /* Main.storyboard */; };
 		BFA949ED216D2180005FAE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA949EC216D2180005FAE4A /* Assets.xcassets */; };
 		BFA949F0216D2180005FAE4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA949EE216D2180005FAE4A /* LaunchScreen.storyboard */; };
+		BFA949FC216D2700005FAE4A /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA949FB216D2700005FAE4A /* ColorTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFA949E2216D217F005FAE4A /* FirstProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA949E5216D217F005FAE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFA949E7216D217F005FAE4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFA949E7216D217F005FAE4A /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 		BFA949EA216D217F005FAE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFA949EC216D2180005FAE4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA949EF216D2180005FAE4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA949F1216D2180005FAE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA949FB216D2700005FAE4A /* ColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,10 @@
 		BFA949E4216D217F005FAE4A /* FirstProject */ = {
 			isa = PBXGroup;
 			children = (
+				BFA949FA216D265A005FAE4A /* Model */,
 				BFA949F7216D2419005FAE4A /* Rescources */,
-				BFA949E7216D217F005FAE4A /* ViewController.swift */,
-				BFA949E9216D217F005FAE4A /* Main.storyboard */,
-				BFA949EE216D2180005FAE4A /* LaunchScreen.storyboard */,
+				BFA949F8216D2614005FAE4A /* Controller */,
+				BFA949F9216D2636005FAE4A /* View */,
 			);
 			path = FirstProject;
 			sourceTree = "<group>";
@@ -70,6 +72,31 @@
 				BFA949F1216D2180005FAE4A /* Info.plist */,
 			);
 			path = Rescources;
+			sourceTree = "<group>";
+		};
+		BFA949F8216D2614005FAE4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFA949E7216D217F005FAE4A /* ColorChangeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFA949F9216D2636005FAE4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFA949E9216D217F005FAE4A /* Main.storyboard */,
+				BFA949EE216D2180005FAE4A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFA949FA216D265A005FAE4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFA949FB216D2700005FAE4A /* ColorTool.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA949E8216D217F005FAE4A /* ViewController.swift in Sources */,
+				BFA949E8216D217F005FAE4A /* ColorChangeViewController.swift in Sources */,
 				BFA949E6216D217F005FAE4A /* AppDelegate.swift in Sources */,
+				BFA949FC216D2700005FAE4A /* ColorTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
