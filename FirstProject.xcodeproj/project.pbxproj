@@ -54,14 +54,22 @@
 		BFA949E4216D217F005FAE4A /* FirstProject */ = {
 			isa = PBXGroup;
 			children = (
-				BFA949E5216D217F005FAE4A /* AppDelegate.swift */,
+				BFA949F7216D2419005FAE4A /* Rescources */,
 				BFA949E7216D217F005FAE4A /* ViewController.swift */,
 				BFA949E9216D217F005FAE4A /* Main.storyboard */,
-				BFA949EC216D2180005FAE4A /* Assets.xcassets */,
 				BFA949EE216D2180005FAE4A /* LaunchScreen.storyboard */,
-				BFA949F1216D2180005FAE4A /* Info.plist */,
 			);
 			path = FirstProject;
+			sourceTree = "<group>";
+		};
+		BFA949F7216D2419005FAE4A /* Rescources */ = {
+			isa = PBXGroup;
+			children = (
+				BFA949E5216D217F005FAE4A /* AppDelegate.swift */,
+				BFA949EC216D2180005FAE4A /* Assets.xcassets */,
+				BFA949F1216D2180005FAE4A /* Info.plist */,
+			);
+			path = Rescources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstProject/Rescources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstProject/Rescources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
